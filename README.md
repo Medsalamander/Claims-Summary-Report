@@ -151,6 +151,7 @@ Rate Increase Needed =
 
 ```
 ### Dashboard
+[**Explore Dashboard Here**](https://app.powerbi.com/view?r=eyJrIjoiNzhjZWJkY2EtNmEzNC00Nzg4LWIxMDAtNzU5MGY0ZDJkMWFjIiwidCI6IjJmMDFkOTZmLTgyYjMtNDY5My1hNTM3LTAwMTkxMGVkNmUyYSIsImMiOjZ9)
 
 ### Results & Findings
 
