@@ -13,11 +13,15 @@
 - [Limitations](#limitations)
 - [References](#references)
 
+---
+
   
-
-
 ### Project Overview
-Healthcare Claims Analytics Report focuses on payer reimbursement performance across commercial, Medicare and Medicaid Payers. It features KPIs including YoY trends, Reimbursement Index, Variance from Benchmark, and Rate Increase Needed to support managed care contract negotiation.  Star schema model, conditional formatting and Diverging bar chart.
+Healthcare managed care contracting analytics dashboard built in Power BI. Analyzes payer reimbursement performance across 8 payers using DAX-driven metrics to support contract negotiation. This dashboard provides managed care contracting teams with data-driven insights to support payer contract negotiations, benchmark reimbursement rates, and identify revenue optimization opportunities.
+
+Key features include YoY trending, Reimbursement Index, Varaiance from Benchmark, and Rate Increase Needed metrics - all built on a star schema data model in Power BI
+
+---
 
 ### Data Sources
 
