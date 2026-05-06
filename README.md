@@ -148,14 +148,35 @@ Rate Increase Needed =
           0
       )
 
-
 ```
+---
+
 ### Dashboard
 [**Explore Dashboard Here**](https://app.powerbi.com/view?r=eyJrIjoiNzhjZWJkY2EtNmEzNC00Nzg4LWIxMDAtNzU5MGY0ZDJkMWFjIiwidCI6IjJmMDFkOTZmLTgyYjMtNDY5My1hNTM3LTAwMTkxMGVkNmUyYSIsImMiOjZ9)
 
+---
+
 ### Results & Findings
+1. **Total Paid amount grew 2.8% YoY** ($33.66M ➡️ $34.59) driven primarily by increased claim volume (+1.7%) and higher average cost per claim (+1.1%)
+   
+2. **Aetna and WellCare Medicaid are the lowest reimbursing payers** with Reimbursement Index Scores of 0.94 and 0.96 respectively -  both below the portfolio benchmark
+   
+3. **Humana Medicare Advantage and Cigna are the strongest performers** with index scores of 1.03, reimbursing 3% above portfolio avarage
+ 
+4. **Oncology drives the highest specialty spend** followed by Cardiology and Internal Medicine
+  
+5. **Unique member count remained flat YoY (0.0% change)** suggetsing cost growth ius driven by utilization intensity and rate changes rather membership growth
 
 ### Recommendations
+1. **Initiate contract renegotiation with Aetna** - a 6% rate increase would bring reimbursement to portfolio benchmark. Open at 8-9% to allow negotiation room.
+
+2. **Review Wellcare Medicaid contract terms** - consider requesting care management supplement payments given the SDOH burden associated with Medicaid populations.
+
+3. **Monitor BlueCross BlueShield** - currently in the yellow zone (0.99 Index). Flag for 2-3% trend increase at next renewal cycle.
+
+4. **Investigate flat member count alongside rising costs** - unchanged membership with growing spend suggests increasing case mix complexity requiring utilization management review.
+
+5. **Expand specialty cost analysis** - conduct deeper dive into oncology spend given its disproportionate share of total paid amount.
 
 ### Limitations
 
