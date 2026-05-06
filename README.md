@@ -1,6 +1,19 @@
 # Claims-Summary-Report
 
 ## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Dashboard](#dashboard)
+- [Results & Findings](#results--findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [References](#references)
+
+  
 
 
 ### Project Overview
@@ -20,7 +33,7 @@ Healthcare Claims Analytics Report focuses on payer reimbursement performance ac
 
 ### Results & Findings
 
-### Reommendations
+### Recommendations
 
 ### Limitations
 
