@@ -24,8 +24,26 @@ Key features include YoY trending, Reimbursement Index, Varaiance from Benchmark
 ---
 
 ### Data Sources
+- **FactClaims.csv** - 5,000 medical claims records (2022-2023)
+  containing paid amounts, claims types, diagnosis and procedure codes
+- **DimMember.csv** - 500 member records with demographics, plan type, and enrollment data
+- **DimProvider.csv** - 50 provider records with specialty, NPI, and provider type
+- **DimPayer.csv** - 8 payer records across Commercial, Medicare, Medicaid, and Medicare Advantage
+- **DimDate.csv** - 2022-2023 date dimension table
+
+
+> Note: All datasets are synthetic and were generated for
+> analytical purposes. No real PHI or PII is contained
+> in this repository.
+
+---
 
 ### Tools
+- **Power BI Desktop** - Data Modelling, DAX, and dashboard visualization
+- **DAX** - KPI measures, time intelligence.
+- **Power Query** - Data loading and type validation
+
+---
 
 ### Data Cleaning & Preparation
 
