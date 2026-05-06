@@ -1,0 +1,9 @@
+PayerID,PayerName,PayerType,Region
+1,BlueCross BlueShield,Commercial,Midwest
+2,UnitedHealthcare,Commercial,National
+3,Medicare FFS,Medicare,National
+4,Medicaid Managed Care,Medicaid,Southeast
+5,Aetna,Commercial,Northeast
+6,Humana Medicare Advantage,Medicare Advantage,South
+7,Cigna,Commercial,West
+8,WellCare Medicaid,Medicaid,Southeast
