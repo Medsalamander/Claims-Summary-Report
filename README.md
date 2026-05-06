@@ -66,7 +66,90 @@ The following steps were performed during data prepartion:
 ---
 
 ### Data Analysis
+The following DAX measures were developed to support analysis
 
+**Base Measures**
+```dax
+Total Amount Paid = SUM(FactClaims[PaidAmount])
+Total Claims = COUNTROWS(FactClaims)
+Unique Members = DISTINCTCOUNT(FactClaims[MemberID])
+Avg Cost per Member = DIVIDE([Total Amount Paid],[Unique Members])
+Avg Cost Per Claim = DIVIDE([Total Amount Paid],[Total Claims],0)
+```
+**Time Intelligence**
+```dax
+PY Total Amount Paid = 
+  CALCULATE(
+      SUM(
+          FactClaims[PaidAmount]
+      ),
+      SAMEPERIODLASTYEAR(DimDate[Date])
+  )
+PY Total Claims = 
+  CALCULATE(
+      COUNTROWS(
+          FactClaims
+      ),
+      SAMEPERIODLASTYEAR(DimDate[Date]))
+PY Unique Members = 
+  CALCULATE(
+      DISTINCTCOUNT(
+          FactClaims[MemberID]
+      ),
+      SAMEPERIODLASTYEAR(DimDate[Date])
+  )
+PY Avg Cost Per Claim = 
+  DIVIDE(
+      [PY Total Amount Paid],
+      [PY Total Claims],
+      0
+  )
+PY Avg  Cost per Member = 
+  DIVIDE(
+      [PY Total Amount Paid],
+      [PY Unique Members],
+      0
+  )
+
+```
+**Reimbursement Analytics**
+```dax
+
+Reimbursement Index = 
+  VAR OverallAvg = 
+      CALCULATE(
+          [Avg Cost Per Claim],
+          ALL(DimPayer[PayerName])
+      )
+  VAR PayerAvg = [Avg Cost Per Claim]
+  RETURN
+      DIVIDE(PayerAvg, OverallAvg,0)
+
+Reimbursement Variance = 
+  VAR OverallAvg = 
+      CALCULATE(
+          [Avg Cost Per Claim],
+          ALL(DimPayer[PayerName])
+      )
+  RETURN
+      [Avg Cost Per Claim] - OverallAvg
+
+Rate Increase Needed =
+  VAR OverallAvg = 
+      CALCULATE(
+          [Avg Cost Per Claim],
+          ALL(DimPayer[PayerName])
+      )
+  VAR PayerAvg = [Avg Cost Per Claim]
+  RETURN
+      DIVIDE(
+          OverallAvg - PayerAvg,
+          PayerAvg,
+          0
+      )
+
+
+```
 ### Dashboard
 
 ### Results & Findings
