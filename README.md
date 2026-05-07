@@ -1,6 +1,4 @@
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat&logo=microsoft&logoColor=white)
-![Healthcare](https://img.shields.io/badge/Healthcare-Analytics-00B4D8?style=flat)
+
 
 # Managed Care Contracting Analytics Report
 
