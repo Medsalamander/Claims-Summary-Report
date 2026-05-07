@@ -74,11 +74,20 @@ The following DAX measures were developed to support analysis
 
 **Base Measures**
 ```dax
-Total Amount Paid = SUM(FactClaims[PaidAmount])
-Total Claims = COUNTROWS(FactClaims)
-Unique Members = DISTINCTCOUNT(FactClaims[MemberID])
-Avg Cost per Member = DIVIDE([Total Amount Paid],[Unique Members])
-Avg Cost Per Claim = DIVIDE([Total Amount Paid],[Total Claims],0)
+Total Amount Paid = 
+  SUM(FactClaims[PaidAmount])
+
+Total Claims = 
+  COUNTROWS(FactClaims)
+
+Unique Members = 
+  DISTINCTCOUNT(FactClaims[MemberID])
+
+Avg Cost per Member = 
+  DIVIDE([Total Amount Paid],[Unique Members])
+
+Avg Cost Per Claim = 
+  DIVIDE([Total Amount Paid],[Total Claims],0)
 ```
 **Time Intelligence**
 ```dax
