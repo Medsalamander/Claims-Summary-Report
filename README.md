@@ -1,4 +1,4 @@
-# Claims-Summary-Report
+# Managed Care Contracting Analytics Report
 
 ## Table of Contents
 - [Project Overview](#project-overview)
