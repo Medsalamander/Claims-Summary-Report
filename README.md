@@ -167,6 +167,8 @@ Rate Increase Needed =
   
 5. **Unique member count remained flat YoY (0.0% change)** suggetsing cost growth ius driven by utilization intensity and rate changes rather membership growth
 
+---
+
 ### Recommendations
 1. **Initiate contract renegotiation with Aetna** - a 6% rate increase would bring reimbursement to portfolio benchmark. Open at 8-9% to allow negotiation room.
 
@@ -178,8 +180,22 @@ Rate Increase Needed =
 
 5. **Expand specialty cost analysis** - conduct deeper dive into oncology spend given its disproportionate share of total paid amount.
 
+---
+
 ### Limitations
+1. **Synthetic datasets** - all data was programmatically generated for learning purposes and does not reflect real-world payer contract terms or claim patterns
+2. **Limited claim volume** - 5,000 claims across 8 payers and 2 years may not capture statistically significant trends present in products datasets
+3. **No denial management analysis** - denied claims are excluded from paid amount calculations, understating true billed volume
+4. **Static benchmarks** - reimbursement index uses internal portfolio average rather than external market benchmarks
 
 ### References
-
+- Centers for Medicare & Medicaid Services (CMS)
+  cms.gov/medicare/payment/fee-schedules
+- National Committee for Quality Assurance (NCQA)
+  https://www.ncqa.org/hedis/measures/
+- American Hospital Association (AHA)
+  https://www.aha.org/fact-sheets/2020-01-07-fact-sheet-underpayment-medicare-and-medicaid
+- Mathematica Commercial Health plan Reimbursement
+  https://www.mathematica.org/solutions/healthcare-price-transparency
+  
 🚀🚀🚀
