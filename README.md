@@ -165,9 +165,7 @@ Rate Increase Needed =
 ---
 
 ### Dashboard
-[**Explore Dashboard Here**](https://app.powerbi.com/view?r=eyJrIjoiNzhjZWJkY2EtNmEzNC00Nzg4LWIxMDAtNzU5MGY0ZDJkMWFjIiwidCI6IjJmMDFkOTZmLTgyYjMtNDY5My1hNTM3LTAwMTkxMGVkNmUyYSIsImMiOjZ9)
-
----
+[**Explore Dashboard Here**](https://app.powerbi.com/view?r=eyJrIjoiOWFiOWRjZGUtNmU0Yi00ZDkxLWFkMTEtNWQzNDU3YjY2MTNhIiwidCI6IjJmMDFkOTZmLTgyYjMtNDY5My1hNTM3LTAwMTkxMGVkNmUyYSIsImMiOjZ9)
 
 ### Results & Findings
 1. **Total Paid amount grew 2.8% YoY** ($33.66M ➡️ $34.59) driven primarily by increased claim volume (+1.7%) and higher average cost per claim (+1.1%)
